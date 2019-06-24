@@ -1,3 +1,5 @@
+# 对加入.gitignore文件之前已经加入版本管理的文件，.gitignore对它们无效
+
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
 
@@ -5,19 +7,6 @@
 
 ## Directory-based project format:
 .idea/
-# if you remove the above rule, at least ignore the following:
-
-# User-specific stuff:
-# .idea/workspace.xml
-# .idea/tasks.xml
-# .idea/dictionaries
-
-# Sensitive or high-churn files:
-# .idea/dataSources.ids
-# .idea/dataSources.xml
-# .idea/sqlDataSources.xml
-# .idea/dynamic.xml
-# .idea/uiDesigner.xml
 
 # Gradle:
 # .idea/gradle.xml
@@ -31,15 +20,10 @@
 *.ipr
 *.iws
 
-## Plugin-specific files:
-
 # IntelliJ
-/out/
+/dist/
 
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# add by ysdlb
+## add by ysdlb
 
 # created by command npm install
 /node_modules/
